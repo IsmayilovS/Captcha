@@ -1,0 +1,27 @@
+body{
+   background-color: rgb(250, 249, 250);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.box{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+#color{
+    background-color: green;
+    width: 100%;
+    height: 10px;
+}
+#captchaText{
+    text-align: center;
+}
+#input{
+    outline: none;
+}
